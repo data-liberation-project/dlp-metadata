@@ -32,6 +32,7 @@ def req_to_row(path: Path) -> dict[str, str]:
         title=m["title"],
         agency=m["agency"].replace(" ▹ ", "|"),
         date=m["date"].strftime("%Y-%m-%d"),
+        date_resubmitted=m["date_resubmitted"].strftime("%Y-%m-%d") if "date_resubmitted" in m else None,
         status=m["status"],
         request_id=m["request_id"],
         last_updated=max_update.strftime("%Y-%m-%d"),
