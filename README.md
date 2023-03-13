@@ -12,6 +12,7 @@ In [`data/requests.csv`](data/requests.csv), you can find metadata about each of
 | title  | The title of the request on the DLP's website.  | Public Housing Inspections  |
 | agency  | The agency to which the request was sent, with agency hierarchies delimited by a &vert; character. | Department of Housing and Urban Development (HUD)&vert;Office of Public and Indian Housing (PIH)  |
 | date  | The date the DLP submitted the request.  | 2022-09-23  |
+| date_resubmitted  | The date the DLP re-submitted the request, if applicable.  | 2023-03-13  |
 | status  | The current status of the request.  | Acknowledged  |
 | request_id  | The tracking number the agency assigned to the request.  | 22-FI-HQ-01969  |
 | last_updated | The date the DLP last updated the request status or noted an update.  | 2022-09-29  |
